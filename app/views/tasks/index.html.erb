@@ -1,5 +1,4 @@
-<h2>TO DO APP</h2>
-<%= link_to "CREATE NEW TASK", "/tasks/new" ,class: "btn btn-primary" %>
+<%= link_to "CREATE NEW TASK", "/tasks/new" ,class: "btn btn-primary", id: "create-new-task" %>
 <h2>【TASK LIST】</h2>
 <% @task.each do |task| %>
     <p>・<%= task.title %>
